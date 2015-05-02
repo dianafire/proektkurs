@@ -3,18 +3,97 @@
 <html>
 
 <head>
-		<title>Diana</title>
+		<meta charset="UTF-8" />
+		<title>Diana Vracheva</title>
+		<style>
+
+			body{	
+				margin: 0 auto;
+				
+			}
+
+			#container{
+				margin: 10px auto;
+				text-align: center;
+				padding: 20px;
+				width: 800px;
+				font-family:arial,helvetica,sans-serif;
+				color:#000000;
+				background-color:#1c478e;
+			}
+
+			.justify{
+				text-align: justify;
+			}
+
+			.float{
+				float: right;
+			}
+
+			.left{
+				text-align: left;
+			}
+
+		</style>
 </head>
 
 	<body>
-		<header>
-			<h1>Diana Vracheva</h1>
-		</header>
-		<img src="images/6.jpg" alt="Diana" width="200"/>
+		<div id="container">
+			<header>
+				<h1>Diana Vracheva</h1>
+				<img src="images/DD.jpg" alt="Diana" width="200" />
+			</header>
 
-		<footer>
-			<p>End of the story :)</p>
-		</footer>
+			<section>
+				<header>
+					<h2>My life until now in a few words: </h2>
+				</header>
+
+				<article class="justify">
+					<p>I was born in Plovdiv in 1985. I lived there until I finished highschool in 2004. Then I moved to Sofia where I had studied "Fire safety" at Ministry of Interior Academy for 4 years.</p>
+					<p>I have been working at Fire Safety Directorate General as chief fire safety and civil protection inspector for almost 7 years now.</p>
+					<p>I'm married and have no kids yet.</p>
+
+					<p><strong>My favourite things to do are:</strong></p>
+					<ol>
+						<li >Most of all I love spending time with my husband and our friends;</li>
+						<li>I like having long walks in the park in summer evenings;</li>
+						<li>I like reading books but unfortunately I just haven't enough time for this kind of activity lately;</li>
+						<li>Recently coding has turned into a hobby because I find it very interesting;</li>
+						<li>And of course as every normal woman I love shoping.</li>
+
+					</ol>
+
+					<p><strong>The best web sites for me are:</strong></p>
+
+					<aside class="float">
+						<p>You should check them :)!</p>
+					</aside>
+					
+					<nav>
+						<ul>
+							<li><a href="http://www.dir.bg/" target= "_blank">DIR</a></li>
+							<li><a href="http://www.highviewart.com/" target= "_blank">HIGH VIEW ART</a></li>
+							<li><a href="http://www.businessinsider.com/" target= "_blank">BUSINESS INSIDER</a></li>
+						</ul>
+					</nav>
+
+				</article>
+
+
+				<form class="left">
+					<p class="left"><strong>Comment:</strong></p>
+					<textarea name="comment" cols="50" rows="5" placeholder="Enter your comment here...">
+					</textarea>
+				</form>
+
+			</section>
+
+			<footer>
+				<p><em> Written by: DD </em></p>
+			</footer>
+
+		</div>
 	</body>
 
 
