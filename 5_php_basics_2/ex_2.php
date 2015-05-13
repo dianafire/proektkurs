@@ -1,8 +1,8 @@
 <?php
 
 
-	define(COLS, 4);
-	define(ROWS, 5);
+	define('COLS', 4);
+	define('ROWS', 5);
 
 
 
