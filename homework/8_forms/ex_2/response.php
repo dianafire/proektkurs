@@ -1,7 +1,9 @@
 
+<!--NO NEED FOR THIS FILE AFTER CHANGING REQUEST.PHP FILE
+
 <?php 
 
-	include_once dirname(_FILE_). '/header.php';
+	/*include_once dirname(_FILE_). '/header.php';
 	include_once dirname(_FILE_). '/footer.php';
 
 	
