@@ -1,0 +1,57 @@
+body{
+	margin:0 auto;
+	
+}
+
+.center{
+	text-align: center;
+}
+
+#content{
+	margin:10px auto;
+	width: 500px;
+	background-color: #33FF66;
+	padding:10px;
+	
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.align{
+	float: right;
+	padding-right: 16px;
+}
+
+#form{
+	border: solid 1px #ffffff;
+	border-radius: 5px;
+	padding: 5px;
+	
+}
+
+p{
+	color: #000099;
+}
+
+.clear{
+	clear: both;
+}
+
+
+.margin{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.result{
+	color:blue;
+	padding: 5px;
+	font-style: italic;
+
+}
+
+.width{
+	width: 236px;
+}
