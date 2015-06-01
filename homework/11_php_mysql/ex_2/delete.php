@@ -8,7 +8,7 @@
 
 
 
-		$id=$_POST['id'];   // post from select.php
+		$id=$_GET['id'];   // post from select.php
 		//echo $id;
 
 		

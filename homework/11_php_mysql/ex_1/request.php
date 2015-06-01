@@ -1,7 +1,7 @@
 
 
 <?php
-	include_once dirname(_FILE_).'/header.php';
+	include_once dirname(__FILE__).'/header.php';
 	$title='Регистрация на дете';
 	head($title);
 ?>
@@ -22,7 +22,7 @@
 			
 			//echo "$Name, $Age";
 
-			include_once dirname(_FILE_).'/db_connect.php'; // set connection with the DB
+			include_once dirname(__FILE__).'/db_connect.php'; // set connection with the DB
 
 			$sql= "INSERT INTO kindergarder.children (`Name`,Age,KinderGarderID)".
 
@@ -96,6 +96,6 @@
 
 
 <?php
-	include_once dirname(_FILE_).'/footer.php';
+	include_once dirname(__FILE__).'/footer.php';
 	foot();
 ?>
