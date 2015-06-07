@@ -1,5 +1,5 @@
 <?php
-	include_once dirname(_FILE_).'/header.php';
+	include_once dirname(__FILE__).'/header.php';
 	$title='Редакция';
 	head($title);
 
@@ -13,7 +13,7 @@
 			
 			//echo "<p>$Name, $Age, $ChildID, $kindergandenID</p>";
 
-			include_once dirname(_FILE_).'/db_connect.php';
+			include_once dirname(__FILE__).'/db_connect.php';
 
 			$sql ="UPDATE kindergarder.children
 

@@ -16,7 +16,7 @@
 
 
 
-	include_once dirname(_FILE_).'/db_connect.php';
+	include_once dirname(__FILE__).'/db_connect.php';
 
 	$sql="SELECT c.ChildID,c.`Name`,c.Age, k.`Name` AS kindergardenName,k.KinderGarderID
 
@@ -58,8 +58,7 @@
 			echo "<td>$age</td>";
 			echo "<td>$kindergardenName</td>";
 			echo "<td>$kindergardenID</td>";
-			echo "<td> <form action='update.php' method='post' target='_blank'> <input type='submit' value='Редактирай' name='submit1' /> 
-			<input type='hidden' name='id' value='$childID' /> <input type='hidden' name='check' value='1' /> </form> </td>";
+			echo "<td> <a href='update.php?id=$childID'>Редактирай</a> </td>";
 			echo "<td> <form action='delete.php' method='post' target='_blank'> <input type='submit' value='Изтрий' name='submit2'> 
 			<input type='hidden' name='id' value='$childID' /> <input type='hidden' name='check' value='1' /> </form> </td>";
 			echo "</tr>";
